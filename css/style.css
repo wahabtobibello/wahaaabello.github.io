@@ -81,10 +81,9 @@ footer{
   padding-top: 50px;
 }
 
-.social-icon{
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+footer .fa{
+  font-size: 25px;
+  margin: 0 2px;
 }
 
 
@@ -152,30 +151,15 @@ PAGE: CONTACT
   list-style: none;
   padding: 0;
   margin:0;
-  font-size: 0.9em;
 }
 .contact-info a{
   display: block;
   min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
   margin: 0 0 10px;
 }
-
-.contact-info li.phone a{
-  background-image: url('../img/phone.png');
+.contact-info .fa, .contact-info{
+  font-size: 1em;
 }
-
-.contact-info li.mail a{
-  background-image: url('../img/mail.png');
-}
-
-.contact-info li.twitter a{
-  background-image: url('../img/twitter.png');
-}
-
-
 /************************
 COLORS
 ************************/
@@ -208,10 +192,9 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover{
   color: #733400;
 }
-footer{
+footer, .fa{
   color: #999;
 }
-
 
 /************************
 RESPONSIVE TO HIGHER WIDTHS
@@ -228,7 +211,7 @@ RESPONSIVE TO HIGHER WIDTHS
   }
   
   .secondary{
-     width: 40%;
+     width: 45%;
      float: right;
   }
   
