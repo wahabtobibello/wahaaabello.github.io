@@ -101,33 +101,42 @@ PAGE: HOME
 
 .main-page img{
   max-width: 50%;
-  border-radius: 10%;display: block;
+  border-radius: 100%;
+  display: block;
   margin: auto;
+}
+.main-page p{
+  text-align: center;
+}
+.main-page p.name{
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-page p.skills{
+  font-size: 1.25em;
 }
 
 .main-page hr.star-light{
     padding: 0;
     border: none;
-    border-top: solid 5px;
+    border-top: solid 8px;
     text-align: center;
-    max-width: 250px;
+    max-width: 300px;
     margin: 25px auto 30px;
 }
 
 .main-page hr.star-light:after {
     background-color: #fff;
-    color: #32673f;
+    color: #733400;
     content: "\f005";
     font-family: FontAwesome;
     display: inline-block;
     position: relative;
-    top: -.8em;
+    top: -.9em;
     font-size: 2em;
     padding: 0.25em;
-}
-
-.main-page p{
-  text-align: center;
 }
 
 /**************************
@@ -138,7 +147,7 @@ PAGE: ABOUT
   display: block;
   max-width: 150px;
   margin: 0 auto;
-  border-radius: 10%;
+  border-radius: 100%;
 }
 
 
@@ -183,12 +192,12 @@ body{
 }
 
 header{
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #F07918;
+  border-color: #BF5600;
 }
 
 nav{
-  background: #599a68; 
+  background: #BF5600; 
 }
 
 h1, h2{
@@ -196,7 +205,7 @@ h1, h2{
 }
 
 a{
-  color: #6ab47b;
+  color: #ffb051;
 }
 
 nav a, nav a:visited {
@@ -204,7 +213,7 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover{
-  color: #32673f;
+  color: #733400;
 }
 footer{
   color: #ccc;
@@ -232,16 +241,12 @@ RESPONSIVE TO HIGHER WIDTHS
   
   
   /************************
-  PAGE: PORTFOLIO
+  PAGE: HOME
   *************************/
   
-  #gallery li{
-    width: 28.3333%; 
-  }
-  #gallery li:nth-child(3n+1){
-    clear:  left;
-  }
-  
+.main-page p#name{
+  font-size: 4.75em;
+}
   
   /************************
   PAGE: ABOUT
