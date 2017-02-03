@@ -100,7 +100,7 @@ PAGE: HOME
 **************************/
 
 .main-page img{
-  max-width: 50%;
+  max-width: 70%;
   border-radius: 100%;
   display: block;
   margin: auto;
@@ -115,7 +115,7 @@ PAGE: HOME
   margin-bottom: 10px;
 }
 .main-page p.skills{
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .main-page hr.star-light{
@@ -248,10 +248,6 @@ RESPONSIVE TO HIGHER WIDTHS
     margin-top: 60px;
   }
 
-  .main-page p.skills{
-    font-size: 1.25em;
-  }
-  
   /************************
   PAGE: ABOUT
   *************************/
@@ -306,6 +302,6 @@ RESPONSIVE TO HIGHER WIDTHS
   }
 
   .main-page p.skills{
-  font-size: 1.5em;
+  font-size: 1.25em;
   }
 }
