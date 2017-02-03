@@ -19,7 +19,7 @@ img{
   max-width: 100%;
 }
 
-h3{
+h2{
   margin: 0 0 1em 0;
 }
 
@@ -46,13 +46,6 @@ h1{
   font-weight: normal;
   line-height: 0.8em;
 }
-
-h2{
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
-
 /************************
 NAVIGATION
 ************************/
@@ -200,7 +193,7 @@ nav{
   background: #BF5600; 
 }
 
-h1, h2{
+h1{
   color: #fff;
 }
 
