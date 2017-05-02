@@ -1,13 +1,17 @@
 /************************
 GENERAL
 *************************/
+html {
+  position: relative;
+  min-height: 100%;
+}
 body{
   font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper{
   max-width: 940px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   padding: 0 5%;
 }
 
@@ -79,6 +83,9 @@ footer{
   text-align: center;
   clear: both;
   padding-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer .fa{
@@ -203,8 +210,17 @@ RESPONSIVE TO HIGHER WIDTHS
 @media screen and (min-width: 481px){
   
   /************************
+  GENERAL
+  *************************/
+
+  .wrapper{
+    margin: 0 auto;
+  }
+
+  /************************
   TWO COLUMN LAYOUT
   *************************/
+  
   .primary{
     width: 50%;
     float: left;
